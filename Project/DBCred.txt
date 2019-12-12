@@ -1,0 +1,6 @@
+Source: y7xntarvid.database.windows.net;
+Initial Catalog=GapDevDemo_Copy;
+user id=cftadmin;
+password=vfr4VFR$
+
+SQLAUTH:admin123

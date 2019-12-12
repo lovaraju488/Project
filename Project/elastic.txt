@@ -1,0 +1,20 @@
+get gapalphaaudit/auditlog/_search
+get gapalpha/project/_mapping
+GET gapalphametadata/IdGenerator/project
+GET gapalphametadata/template/projectdata
+PUT  gapalphametadata/template/projectdata
+
+
+
+http://clanfourgap.westus.cloudapp.azure.com:9200/
+http://clanfourgap.westus.cloudapp.azure.com:5601/
+http://clanfourgap.westus.cloudapp.azure.com:5601/app/sense
+
+
+
+GET gapalphametadata/template/projectdata
+GET gamadevmetadata/Template/domaindata
+DELETE gamadev/project/7
+GET gamadev/project/_search
+
+

@@ -1,0 +1,25 @@
+1.Insert into tenderreceivingmodes(tenderReceivingModeDesc)values('Fax'),('Online'),('Post'),('Phone');
+2.Insert into tendertypes(TenderTypeDesc)values('OLTE'),('OOTE'),('BQ'),('TE');
+3.Insert into tendertypes(TenderTypeAbbrivation)values('Online Limited Tender Enquiry'),('Online Open Tender Enquiry'),('Budgetary'),('Tender Enquiry');\
+4.Insert into bidtypes(BidTypeDesc)values('Single Bid'),('Two Bid');
+5.Insert into notificationtype(NotificationType)values('Dashboard'),('SMS');
+6.Insert into tenderstatus(TenderStatusDesc)values('BG'),('LOI Received'),('Revised Offer'),('TPC NOT L1'),('TPC L1')('TenderRejected'),('Tender Submitted'),('Tender Regretted'),('Tender To BeSubmitted'),('Tender Received'),('TPC')('SO'),('CloseTender'),('Response to TPC'),('Jobs Delivered'),('Submit');
+7.Insert into reminderfrequency(ReminderFrequencyDesc)values('Biweekly'),('Daily'),('Monthly'),('Weekly');
+8.Insert into uom(UOMDesc)values('Sets'),('Numbers'),('N/A');
+9.Insert into ldtypes(LDTypeDesc)values('BiWeekly'),('Daily'),('Monthly'),('Weekly');
+10.Insert into customers(CustomerName)values('DRDL'),('BHEL'),('ISRO');
+11.Insert into customers(customerAddress)values('DRDL Hyd'),('BHEL Bang'),('ISRO Rajkot');
+12.Insert into nominatedperson(PersonName)values('Hari'),('Raghu'),('SaiBaba'),('Baba');
+13.Insert into securitydeposittype(SecurityDepositTypeDesc)values('BG'),('FIM'),('Performance');
+14.Insert into termsandconditions(TcDesc)values('Terms and conditions 1'),(Terms and conditions 2),(Terms and conditions 3);
+15.Insert into tpcacknowledged(AcknowledgedDesc)values('L1'),(NOT L1);
+
+
+
+
+
+
+
+
+
+

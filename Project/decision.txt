@@ -1,0 +1,38 @@
+Based on User input we can execute one block of code over another block of code.Make a decision execute some code based on some condition that could be the user input from the keyboard,may be the state of the computer system iteself.
+
+using System;
+
+namespace decisions
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("WELCOME TO CLANFOUR TECHNOLOGIES");
+            Console.Write("ENTER UR EMP ID:");
+            string userValue = Console.ReadLine();
+
+            if (userValue == "001")
+            {
+                string message = "You Are Mr.Abhilash";
+                Console.WriteLine(message);
+            }
+            else if (userValue == "002") 
+            {
+                string message = "You Are Mr.Gopal";
+                Console.WriteLine(message);
+            }
+            else if(userValue =="003")
+            {
+                string message = "You Are Mr.Raju";
+                Console.WriteLine(message);
+            }  
+            else
+            {
+                string message = "Sorry,Please Check Ur Emp Id";
+                Console.WriteLine(message);
+            }
+            Console.ReadLine();
+        }
+    }
+}

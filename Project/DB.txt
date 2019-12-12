@@ -1,0 +1,33 @@
+  <add name="ProjectEntities" connectionString="metadata=res://*/ProjectDb.csdl|res://*/ProjectDb.ssdl|res://*/ProjectDb.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DESKTOP-IFTI6N5;initial catalog=Project;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" /></connectionStrings>
+
+
+CREATE DATABASE Project;
+
+CREATE TABLE Register(
+	[RegisterID] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL,
+	[UserName] [varchar](255) NOT NULL,
+	[FirstName] [varchar](255) NOT NULL,
+	[LastName] [varchar](255) NOT NULL,
+	[Email] [varchar](255) NOT NULL,
+	[Password] [varchar](255) NOT NULL,
+	[ConfirmPassword] [varchar](255) NOT NULL)
+
+sp_rename 'Register.UserName', 'Name', 'COLUMN';
+
+(LocalDb)\MSSQLLocalDB
+
+AttachDbFilename=|DataDirectory|\aspnet-Project-20161115013919.mdf;
+
+aspnet-Project-20161115013919
+
+https://www.techonthenet.com/sql_server/tables/alter_table.php
+
+EX:
+CREATE TABLE Persons
+(
+ID int IDENTITY(1,1) PRIMARY KEY,
+LastName varchar(255) NOT NULL,
+FirstName varchar(255),
+Address varchar(255),
+City varchar(255)
+)
