@@ -17,7 +17,7 @@ namespace decisions
                 string message = "You Are Mr.Abhilash";
                 Console.WriteLine(message);
             }
-            else if (userValue == "002") 
+            else if(userValue =="003") 
             {
                 string message = "You Are Mr.Gopal";
                 Console.WriteLine(message);
